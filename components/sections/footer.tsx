@@ -42,7 +42,7 @@ export function Footer() {
                         <div className="flex items-center gap-2 text-sm text-center md:text-right">
                             <MapPin className="w-4 h-4 text-accent shrink-0" />
                             <span>
-                                Atendimento em Condomínios e Academias de São Paulo
+                                Rua Tunísia, Parque Monte Alegre, Taboão da Serra - SP, 06756-110
                             </span>
                         </div>
                     </div>
