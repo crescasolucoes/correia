@@ -34,10 +34,10 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Correia Pro Tennis | Aulas de Tênis em São Paulo",
-    description: "Transforme seu jogo com a metodologia Correia Pro Tennis. Aulas para todas as idades em condomínios e empresas.",
+    title: "Correia Tennis | Aulas de Tênis em São Paulo",
+    description: "Transforme seu jogo com a metodologia Correia Tennis. Aulas para todas as idades em condomínios e empresas.",
     url: 'https://mtennis.com.br',
-    siteName: 'Correia Pro Tennis',
+    siteName: 'Correia Tennis',
     locale: 'pt_BR',
     type: 'website',
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Correia Pro Tennis | Aulas de Tênis em São Paulo",
+    title: "Correia Tennis | Aulas de Tênis em São Paulo",
     description: "Aulas de tênis personalizadas e eventos esportivos. Venha conhecer!",
     images: ['/images/logo.png'],
   },
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
-  "name": "Correia Pro Tennis",
+  "name": "Correia Tennis",
   "image": "https://mtennis.com.br/images/logo.png",
   "description": "Aulas de tênis, baby tennis e treinamento de equipes em São Paulo.",
   "url": "https://mtennis.com.br",

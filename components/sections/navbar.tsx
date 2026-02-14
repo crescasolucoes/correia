@@ -31,14 +31,31 @@ export function Navbar() {
     return (
         <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-background/80 backdrop-blur-md shadow-sm border-b border-border/40 py-4" : "bg-transparent py-6"}`}>
             <div className="container flex items-center justify-between">
-                <Link href="/" className="group transition-transform hover:scale-105 active:scale-95 duration-200 relative w-40 h-14">
-                    <Image
-                        src="/images/logo.png"
-                        alt="Correia Pro Tennis Logo"
-                        fill
-                        className="object-cover object-left w-40"
-                        priority
-                    />
+                <Link href="/" className="group relative z-50 flex items-center gap-3 transition-transform hover:scale-105 active:scale-95 duration-200">
+                    <div className="relative w-10 h-10 md:w-12 md:h-12">
+                        <Image
+                            src="/images/logo.png"
+                            alt="Correia Pro Tennis Logo"
+                            width={48}
+                            height={48}
+                            className="object-contain w-full h-full drop-shadow-md"
+                            priority
+                        />
+                    </div>
+                    <div className="flex flex-col leading-none">
+                        <span className={cn(
+                            "text-[0.65rem] md:text-xs uppercase tracking-[0.15em] font-medium transition-colors duration-300",
+                            scrolled ? "text-primary/80" : "text-white/90 drop-shadow-sm"
+                        )}>
+                            Correia
+                        </span>
+                        <span className={cn(
+                            "text-xl md:text-2xl font-heading font-bold tracking-tighter transition-colors duration-300",
+                            scrolled ? "text-primary" : "text-white drop-shadow-sm"
+                        )}>
+                            TENNIS
+                        </span>
+                    </div>
                 </Link>
 
                 {/* Desktop Nav */}

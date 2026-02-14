@@ -77,7 +77,7 @@ export function Hero() {
                     {/* Footer Stats/Social Proof in Hero */}
                     <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 mt-16 pt-8 border-t border-white/10 text-white/80">
                         <div className="flex flex-col gap-1">
-                            <span className="text-3xl font-bold text-accent">10+</span>
+                            <span className="text-3xl font-bold text-accent">30+</span>
                             <span className="text-xs uppercase tracking-widest opacity-70">Anos de Experiência</span>
                         </div>
                         <div className="flex flex-col gap-1">
