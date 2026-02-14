@@ -67,9 +67,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon-16x16.png",
-    shortcut: "/favicon-16x16.png",
-    apple: "/favicon-16x16.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   verification: {
     google: 'verification_token', // Placeholder for Google Search Console

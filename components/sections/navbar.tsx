@@ -31,12 +31,12 @@ export function Navbar() {
     return (
         <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? "bg-background/80 backdrop-blur-md shadow-sm border-b border-border/40 py-4" : "bg-transparent py-6"}`}>
             <div className="container flex items-center justify-between">
-                <Link href="/" className="group transition-transform hover:scale-105 active:scale-95 duration-200 relative w-40 h-12">
+                <Link href="/" className="group transition-transform hover:scale-105 active:scale-95 duration-200 relative w-40 h-14">
                     <Image
                         src="/images/logo.png"
                         alt="Correia Pro Tennis Logo"
                         fill
-                        className="object-contain object-left"
+                        className="object-cover object-left w-40"
                         priority
                     />
                 </Link>
